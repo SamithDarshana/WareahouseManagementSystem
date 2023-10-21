@@ -1,0 +1,51 @@
+.home { 
+    background-image: url('https://img.freepik.com/free-photo/abstract-blur-shopping-mall_1203-7930.jpg?w=1060&t=st=1697797222~exp=1697797822~hmac=752ff100a3e8a16a645de93bc7c14617f1e3a4dfc11442b97930457143ce1426'); /* Replace with the path to your image */
+    background-size: cover;  
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+  } 
+
+  h1 {
+    font-size: 46px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 90vh;
+    color: #e057ec ;
+    -webkit-text-stroke: 0.5px #e057ec; 
+  }
+
+  .intro { 
+    background: rgb(212, 212, 212, 0.6);
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 250px;
+    width: 600px;
+    padding: 10px;
+    margin-top: 120px;
+    border-radius: 10px;
+  } 
+
+  .text {
+    font-size: 30px;
+    font-weight: bold; 
+    color: #732f93;
+  }
+
+  
+  /*background-image: url('https://img.freepik.com/free-photo/abstract-blur-shopping-mall_1203-7930.jpg?w=1060&t=st=1697797222~exp=1697797822~hmac=752ff100a3e8a16a645de93bc7c14617f1e3a4dfc11442b97930457143ce1426'); /* Replace with the path to your image */
+ /* background-size: cover; /* Adjust background size as needed */
+  /*background-repeat: no-repeat; /* Prevent image repetition */
+  /*background-attachment: fixed; /* Fix the image position while scrolling (optional) */
+  /*You can add more styles as needed */

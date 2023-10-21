@@ -1,0 +1,22 @@
+.custom-bg-class {
+  background-color: #3d5a80;  
+  
+}
+
+.custom-bg-class {
+  background-image: url('C:\Users\samit\Desktop\project\Desktop - 48'); /* Replace with the path to your image */
+  background-size: cover; /* Adjust the sizing as needed */
+  background-repeat: no-repeat; /* Prevent image repeating */
+  background-position: center center; /* Center the image */
+  /* Other styles for the element */
+}
+
+.btn-add {
+  background-color:  #073b4c;  
+  color: #FFFFFF; 
+  border-color: #023047;
+  text-decoration: none;
+  padding: 5px 15px;  
+  font-size: 14px;
+  border-radius: 5px;
+}

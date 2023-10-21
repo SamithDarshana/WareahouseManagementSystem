@@ -1,0 +1,23 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  color: white;
+  padding: 5px;
+  font-size: 16px;
+  border: none; 
+  border-radius: 5px;
+} 
+.nav-link {
+  color: #fff; 
+}
+
+.container-fluid {
+  background: linear-gradient(45deg, #bf95ef, #ea70dc);
+} 
+  
+.nav-item { 
+  padding: 3px 15px; 
+} 
