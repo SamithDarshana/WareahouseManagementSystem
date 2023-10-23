@@ -55,7 +55,7 @@ export default function SignIn () {
                     <input type="password" class="form-control-sign" id="password"
                     onChange={(e)=> setPassword(e.target.value)}/>
                 </div> 
-                <button  type="register" class="btn-register">SIGN IN</button>
+                <button  type="register" class="btn-register">SIGN UP</button>
                 <br/>
                 <p className="p1">Already have an account?</p>
                 <button type="login" class="btnS-login" onClick={handleLogin}>
