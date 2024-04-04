@@ -5,13 +5,23 @@ const LaptopModel = require("./models/Laptops")
 const TelevisionModel = require("./models/Televisions") 
 const EmployeeModel = require("./models/Employee")
 
+require('dotenv').config();
+
 const app = express(); 
 app.use(cors())
 app.use(express.json())
 
-mongoose.connect("mongodb://127.0.0.1:27017/4thSemProject")
+//mongoose.connect("mongodb://127.0.0.1:27017/4thSemProject")
+mongoose.connect(process.env.URL).then(() => {
+    console.log('MongoDB connected');
+  }).catch(err => {
+    console.error('MongoDB connection error:', err);
+  });
 //mongodb://localhost:27017
-
+const PORT = process.env.PORT
+app.listen(PORT, () => {
+    console.log("Server is running in " + PORT);
+})
 //sign in
 
 app.post("/signIn", (req, res) => {
@@ -113,6 +123,3 @@ app.post("/addTelevision", (req, res) => {
     .catch(err => res.json(err))
 })
 
-app.listen(3001, () => {
-    console.log("Server is running");
-})
