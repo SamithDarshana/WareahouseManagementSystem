@@ -1,17 +1,17 @@
 import { useState } from 'react' 
 import {BrowserRouter as Router, Route, Routes, useLocation} from "react-router-dom" 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NavBar from './NavBar' 
-import Home from './Home';
-import Laptop from './Laptop';
-import TeleVision from './TeleVision';
+import NavBar from './navbar/NavBar' 
+import Home from './pages/Home';
+import Laptop from './pages/Laptop';
+import TeleVision from './pages/TeleVision';
 import './App.css'
-import AddLaptops from './AddLaptop';
-import UpdateLaptops from './UpdateLaptop';
-import AddTelevision from './AddTelevision';
-import updateTelevision from './UpdateTelevision';
-import SignIn from './SignIn';
-import Login from './Login';
+import AddLaptops from './pages/AddLaptop';
+import UpdateLaptops from './pages/UpdateLaptop';
+import AddTelevision from './pages/AddTelevision';
+import updateTelevision from './pages/UpdateTelevision';
+import SignIn from './login/SignIn';
+import Login from './login/Login';
 
 
 function App() { 

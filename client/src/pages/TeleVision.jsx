@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, {useState, useEffect} from "react";
 import { Link } from "react-router-dom";
-import NavBar from "./NavBar";
+import NavBar from "../navbar/NavBar";
 import "./TeleVision.css"
 
 export default function TeleVision() {
